@@ -1,0 +1,62 @@
+:root{
+/* spacing */
+--size-1: clamp(0.2rem, 0.5vw, 0.25rem);
+--size-2: clamp(0.4rem, 0.5vw, 0.6rem);
+--size-3: clamp(0.6rem, 1vw, 0.75rem);
+--size-4: clamp(0.5rem, 2vw, 1rem);
+--size-5: clamp(1rem, 2.5vw, 1.25rem);
+--size-6: clamp(1.2rem, 3vw, 1.5rem);
+--size-7: clamp(1.5rem, 5vw, 2.5rem);
+--size-8: clamp(2.5rem, 7vw, 3.5rem);
+--size-9: clamp(3rem, 8vw, 5rem);
+--size-10: clamp(5rem, 10vw, 7rem);
+
+/* page spacing */
+--space-Top:5% 0;
+--space-Side:0 8%;
+--space-Sm:1vh 5vw;
+--space-Med:5vh 10vw;
+--space-Lg:15vh 10vw;
+
+--space-Qtr:5vh 5vw;
+--space-Half:15% 8%;
+--space-Full: 20% 15%;
+--space-Full-X: 15vh 5vw 5vh 10vw;
+
+--space-Auto:15% auto;
+
+/* --space-Side: 0 cqw(8%); */
+/* --space-Full: cqh(15%) cqw(15%); */
+
+/* Edges */
+--rad-Sm: 1rem;
+--rad-Lg: 2.25rem;
+
+--bord: 1px solid var(--border-color);
+--bord-2: 1px solid var(--accent-1);
+
+/* shadows & lights  
+need to make these shadows better*/
+--box-Shadow:  6px 4px 8px var(--shadow), 0 4px 6px var(--shadow);
+--text-Shadow:1px 2px 10px var(--shadow);
+
+/* opacity */
+--op-L:0.25;
+--op-M:0.5;
+--op-S:0.75;
+
+/* font stack */
+--font-Main: 'Poppins', sans-serif;
+--font-Alt: 'Rubik',sans-serif;
+
+/* Animations */
+--ani-Speed: 0.3s;
+--ani-Speed-Fast: 0.2s;
+--ani-Speed-Slow: 0.5s;
+--ani-Speed-Long: 10s;
+--ani-Delay:1s;
+--ani-Delay:2s;
+
+--transit:all var(--ani-Speed-Fast) ease-in-out var(--ani-Speed);
+}
+

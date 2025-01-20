@@ -1,0 +1,77 @@
+/* reset styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-Main);
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+	color: var(--txt-1);
+	background: var(--bg-1);
+    line-height: 1.5;
+    overflow-x: hidden;
+    letter-spacing: .05em;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+        transition:  var(--transit);
+    }
+}
+
+h1 {
+    font-size: var(--size-8);
+}
+
+h2 {
+    font-size: var(--size-7);
+}
+
+h3 {
+    font-size: var(--size-6);
+}
+
+p {
+	font-size: var(--size-5);
+	text-shadow: var(--text-Shadow);
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+:is(h1, h2, h3, h4, p, .marg_Also) {
+    margin: var(--space-Qtr);
+}
+
+    /* Tablet Screen  */
+@media (min-width: 768px) {
+:is(h1, h2, h3, h4, p, .marg_Also) {
+    margin: var(--space-Half);
+}
+}
+
+    /* Desktop Screen */
+@media (min-width: 1024px) {
+    :is(h1, h2, h3, h4, p, .marg_Also) {
+    margin: var(--space-Med);
+}
+} 
+
+    /* Large Screen */
+@media (min-width: 1440px) {
+    :is(h1, h2, h3, h4, p, .marg_Also) {
+    margin: var(--space-Lg);
+}
+} 
